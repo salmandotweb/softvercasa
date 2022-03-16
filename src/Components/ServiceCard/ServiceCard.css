@@ -1,0 +1,50 @@
+.service-card {
+  flex-basis: 30%;
+  min-height: 30rem;
+  background: #fff;
+  padding: 2rem;
+  border-bottom-right-radius: 8rem;
+  border-top-left-radius: 4rem;
+  box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
+  cursor: pointer;
+  margin: 2rem 0;
+  transition: 250ms all;
+}
+.service-card:hover {
+  transform: scale(1.05);
+}
+.service-card > h3 {
+  margin: 2rem 0;
+  font-size: 2.3rem;
+  color: var(--heading-color);
+}
+.service-card > p {
+  color: #aaa;
+  line-height: 1.5;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+@media screen and (max-width: 1212px) {
+  .service-card {
+    flex-basis: 45%;
+  }
+}
+@media screen and (max-width: 880px) {
+  .service-card {
+    flex-basis: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .service-card {
+    border-bottom-right-radius: 4rem;
+    border-top-left-radius: 4rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .service-card {
+    border-radius: 1rem;
+  }
+  .service-card > h3 {
+    font-size: 2.1rem;
+  }
+}

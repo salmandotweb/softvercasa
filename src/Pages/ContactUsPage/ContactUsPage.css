@@ -1,0 +1,26 @@
+.contact-us {
+  background-image: linear-gradient(to right, #122e99, #2370c8);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact-us-title {
+  margin-bottom: 5rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.title-links {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.title-links > i {
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin: 0 1rem;
+}

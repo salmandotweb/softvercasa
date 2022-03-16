@@ -1,0 +1,119 @@
+.about-section {
+  padding: 10rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.about-section-left {
+  max-width: 50%;
+}
+.about-subText {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+.about-title {
+  font-size: 4rem;
+  color: var(--heading-color);
+  margin-bottom: 1rem;
+}
+.about-description {
+  color: #aaa;
+  max-width: 95%;
+  line-height: 1.5;
+  font-size: 1.8rem;
+}
+.about-points {
+  margin: 2rem 0;
+}
+.about-points > li {
+  margin: 1rem 0;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+.about-points > li > i {
+  color: var(--primary-color);
+  margin-right: 1rem;
+}
+.contactBtn {
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.about-section-right {
+  max-width: 50%;
+}
+.about-section-right > img {
+  width: 100%;
+}
+@media screen and (max-width: 1186px) {
+  .about-description {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .about-section {
+    padding: 5rem;
+  }
+}
+@media screen and (max-width: 996px) {
+  .about-section {
+    flex-direction: column-reverse;
+  }
+  .about-section-right {
+    margin: 0 auto;
+  }
+  .about-section-left,
+  .about-section-right {
+    max-width: 100%;
+  }
+  .about-description {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 996px) {
+  .about-description {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 996px) {
+  .about-section-left {
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .about-description {
+    margin: 0 auto;
+    max-width: 100%;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 886px) {
+  .about-description {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 599px) {
+  .about-section {
+    padding: 5rem 3rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .about-section-left {
+    text-align: left;
+  }
+  .about-description {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .about-description {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about-description {
+    font-size: 1.4rem;
+  }
+}

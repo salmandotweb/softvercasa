@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Archivo", sans-serif;
+  font-size: 1.6rem;
+}
+
+:root {
+  --white-color: #fff;
+  --primary-color: #f9a826;
+  --heading-color: #262a4e;
+  --bg-color: #e5f3fe;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: "Archivo", sans-serif;
+}
+
+.btn {
+  border: none;
+  font-family: inherit;
+  background: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  background: var(--primary-color);
+  color: var(--white-color);
+  padding: 1rem;
+  font-weight: 400;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+
+@media screen and (min-width: 1441px) {
+  html {
+    font-size: 65%;
+  }
+}
+@media screen and (min-width: 1650px) {
+  html {
+    font-size: 69%;
+  }
+}
+@media screen and (min-width: 1700px) {
+  html {
+    font-size: 71%;
+  }
+}
+@media screen and (min-width: 1800px) {
+  html {
+    font-size: 73%;
+  }
+}
+@media screen and (min-width: 1900px) {
+  html {
+    font-size: 75%;
+  }
+}

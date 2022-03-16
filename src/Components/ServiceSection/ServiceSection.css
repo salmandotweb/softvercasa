@@ -1,0 +1,40 @@
+.service-section {
+  padding: 5rem 10rem;
+}
+.service-section-title > p {
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+.service-section-title > h1 {
+  font-size: 4rem;
+  color: var(--heading-color);
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
+.service-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 1266px) {
+  .service-section {
+    padding: 5rem;
+  }
+}
+@media screen and (max-width: 1212px) {
+  .service-section {
+    padding: 5rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .service-section {
+    padding: 5rem 3rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .service-section {
+    padding: 5rem 2rem;
+  }
+}

@@ -1,0 +1,116 @@
+.contact-section {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.chevron {
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  min-height: 50vh;
+  width: 100%;
+}
+.chevron:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background-image: linear-gradient(to bottom, #122e99, #2370c8);
+  transform: skew(0deg, 6deg);
+}
+.chevron:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background-image: linear-gradient(to bottom, #122e99, #2370c8);
+  transform: skew(0deg, -6deg);
+  z-index: 1;
+}
+.contact-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 999;
+}
+.contact-text > h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+.contact-text > p {
+  margin: 2rem 0;
+  text-transform: uppercase;
+  font-size: 1.5;
+  font-weight: 400;
+  line-height: 1.2;
+}
+@media screen and (max-width: 1200px) {
+  .contact-text {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 724px) {
+  .contact-text {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 674px) {
+  .contact-section {
+    min-height: 50vh;
+  }
+  .contact-text > h1 {
+    font-size: 3rem;
+  }
+  .chevron {
+    min-height: 40vh;
+  }
+  .contact-text {
+    top: 50%;
+  }
+  .contact-text > p {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 532px) {
+  .contact-section {
+    min-height: 40vh;
+  }
+  .chevron {
+    min-height: 30vh;
+  }
+}
+@media screen and (max-width: 425px) {
+  .contact-text > p {
+    display: none;
+  }
+  .contact-text > h1 {
+    margin-bottom: 2rem;
+    font-size: 2.8rem;
+  }
+  .chevron {
+    min-height: 30vh;
+  }
+}
+@media screen and (max-width: 375px) {
+  .contact-text > h1 {
+    font-size: 2.5rem;
+  }
+  .contact-text {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .contact-text > h1 {
+    font-size: 2.3rem;
+  }
+}
